@@ -1,0 +1,103 @@
+body{
+    background:linear-gradient( #71b7e6, #9b59b6);
+}
+*:focus{
+outline: none;
+}
+.box{
+box-sizing: border-box;
+width: 360px;
+height: 600px;
+border-radius: 5px;
+
+
+border:2px solid white;
+
+background: transparent;
+margin-top: 10px;
+overflow: hidden;
+transition: all 1s;
+}
+
+
+img{
+box-sizing: border-box;
+width: 100px;
+height: 100px;
+margin:20px 35% ;
+border-radius:50%;
+
+border:5px black;
+
+background-color: white;
+overflow: hidden;
+
+
+}
+
+hr{
+width:500px;
+line-height:20px;
+margin:10px 10px 10px 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+display: block;
+box-sizing: border-box;
+color: white;
+margin-bottom: 30px;
+padding: 4px;
+width: 220px;
+height: 32px;
+border: 1px solid white;
+font-family:  sans-serif;
+font-weight: 400;
+font-size: 15px;
+
+background: transparent;
+}
+input[type="text"]{
+margin-top: 25px;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="date"]:hover {
+    border-radius: 40px;
+}
+
+
+button{
+border:1px solid #3498db;
+background: #3949AB;
+color:white;
+height: 30px;
+width: 100px;
+border-radius: 2px;
+left:0;
+margin:0px;
+}
+button:hover{
+    border-radius: 40px;
+background: #151c6a;
+}
+input[type="file"]{
+display:none;
+}
+label{
+    border:transparent;
+background: #3949AB;
+color:white;
+    
+width:40px;
+height:20px;
+padding: 4px;
+border-radius: 2px;
+}
+label:hover{
+    border-radius: 20px;
+
+    background: #151c6a;
+}
